@@ -1,0 +1,63 @@
+
+html {
+  
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+a:active, a:focus { outline: none; }
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+body {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    outline: none;
+    font-family: 'Jost-Regular';
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active, button:focus {
+    outline: none;
+  }
+  button::-moz-focus-inner {
+    border: 0;
+  }
+
+

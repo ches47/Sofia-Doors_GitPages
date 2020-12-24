@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map page </title>
+    <!-- CDN FONT Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Jost?selection.family=Jost:wght@500;700">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/slick/slick.css">
+    <!-- <link rel="stylesheet" href="css/slick/slick-theme.css">  ОТКЛЮЧИЛ НЕ НУЖНА ПОКА -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <div class="header__top-inner"> 
+              <div class="header__logo">
+                  <a href="index.html">
+                      <img src="img/furniture-company.jpg" alt="logo_sofa" width="250px">
+                  </a>
+                  <div>Официальный сайт фабрики</div> 
+                 
+              </div>
+  
+              <div class="header__input">
+                  <input type="text" placeholder="Введите название" required>
+                  <div class="header__input-btn">
+                     <button type="submit">Поиск</button>    
+                  </div>   
+              </div>
+              <div class="header__box"> 
+               <div class="header__btn">
+                  <a class="basket header__circle" href="basket.html">
+                      <i class="fas fa-shopping-basket"></i>         
+                  </a>
+               </div>
+               <div class="header__contact">
+                  <div class="header__contact-tel">
+                      <i class="fas fa-phone-volume"></i>
+                      <span><a href="tel:+78142332211">+7(814)-233-22-11</a></span>
+                  </div>
+                  <div class="header__contact-call">
+                      Звоните с 09:00 до 21:00.
+                      <span>Закажите обратный звонок</span>         
+                  </div>
+               </div>
+            </div>   
+          </div>  
+         </div>       
+        </div> 
+        
+        <div class="header__menu">
+            <div class="container">
+                <nav class="menu">
+                 <div class="menu__btn">
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                 </div>    
+                  <ul class="menu__list">
+                      <li class="menu__list-li">
+                          <a class="menu__list-a" href="#">О нас</a>
+                      </li>
+                      <li class="header__drop-down drop-down menu__list-li">
+                          <a class="drop-down__link menu__list-a" href="catalog.html">Каталог<i class="fas fa-angle-down"></i></a>
+                          
+                          <ul class="drop-down__list">
+                              <li class="title">Каталог<span>54 673 товаров</span></li>
+                              <div class="line"></div>
+  
+                            <div class="catalog__doors">     
+                              <ul class="catalog_list">
+          
+                                  <li><a class="catalog__list-a" href="#">Межкомнатные двери</a></li>
+                                  <li><a class="catalog__list-a" href="set.html">Входные двери</a></li>
+                                  <li><a class="catalog__list-a" href="#">Стекляные двери</a></li>
+                                  <li><a class="catalog__list-a" href="#">Раздвижные системы</a></li>
+                                  <li><a class="catalog__list-a" href="#">Межкомнатные перегородки</a></li>
+                                  <li><a class="catalog__list-a" href="#">Паркетная доска</a></li>
+                              </ul> 
+                              <ul class="catalog_list-second">   
+                                  
+                                  <li><a class="catalog__list-a" href="#">Фарнитура</a></li>
+                                  <li><a class="catalog__list-a" href="#">Погонаж и плинтус</a></li>
+                                  <li><a class="catalog__list-a" href="#">Скрытая дверь</a></li>
+                                  <li><a class="catalog__list-a" href="#">Потолочно-стеновые панели</a></li>
+                                  <li><a class="catalog__list-a" href="#">Пожароустойчивые двери</a></li> 
+                              </ul> 
+                          </div>   
+                              
+                          </ul>
+                          
+                      </li>
+                      <li class="menu__list-li">
+                          <a class="menu__list-a" href="post.html">Статьи</a>
+                      </li>
+                      <li class="menu__list-li">
+                          <a class="menu__list-a" href="project.html">Фото</a>
+                      </li>
+                      <li class="menu__list-li">
+                          <a class="menu__list-a" href="map.html">Где купить</a>
+                      </li>
+                      <li class="menu__list-li">
+                          <a class="menu__list-a" href="design.html">Дизайнеры</a>
+                      </li>
+                      <li class="menu__list-li">
+                          <a class="menu__list-a" href="questions.html">FAQ</a>
+                      </li>
+                      <li class="menu__list-li">
+                          <a class="menu__list-a" href="ourContact.html">Контакты</a>
+                      </li>
+                  </ul>   
+                </nav>
+            </div>       
+        </div>
+      
+    </header>   
+
+    <secton class="map">
+        <div class="map-object">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d387191.33750346623!2d-73.979681!3d40.6974881!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1597238459411!5m2!1sru!2sua" 
+             width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div class="map__about">
+            <div class="map__about-h2">
+                <h2>Где можно приобрести</h2>
+            </div>
+            <div class="map__about-select">
+                <select class="select-place select-city">
+                    <option>Город</option>
+                    <option>Киев</option>
+                    <option>Харьков</option>
+                  </select>
+                <select class="select-place select-metro">
+                    <option>Метро</option>
+                    <option>Харьковская</option>
+                    <option>Хрещатик</option>
+                </select>  
+            </div>
+            <div class="map__about-buttons">
+                <button class="btn__blue" type="submit">Двери</button>
+                <button class="btn__red" type="submit">Паркет</button>
+            </div>
+            <div class="map__about-bigBtn">
+                <button class="button" type="submit">
+                    Узнать подробнее   
+                    <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </secton>
+
+     <footer class="footer">
+        <div class="container">
+
+            <div class="footer__info">
+
+                <div class="footer__info-contact">
+                    <div class="footer__info-contact-logo">
+                        <img src="img/furniture-company.jpg" alt="logo" width="200px">
+                    </div>
+                    <div class="footer__info-contact-tel">
+                        Контакты
+                        <div class="tel">8 800-777-66-55</div> 
+                        <div class="tel2">8 900-111-22-33</div>
+                    </div>
+                </div>
+                <div class="footer__info-contact-list">
+                    <ul class="">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Статьи</a></li>
+                        <li><a href="#">Фото</a></li>
+                        <li><a href="#">Где купить</a></li>
+                        <li><a href="#">Дизайнеры</a></li> 
+                    </ul>
+                </div>
+                <div class="footer__info-contact-search">
+                    <div class="title"> Поиск по сайту</div> 
+                    <input type="search" placeholder="Введите название"
+                    required>
+                    <button type="submit">Поиск</button>
+                </div>
+                <div class="footer__info-contact-social">
+                    <div class="title">Подписывайся</div> 
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i>Pinterest</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                    </ul>
+                </div>
+            </div> 
+
+        </div>
+
+        <div class="footer__politic">
+         <div class="container">
+            <div class="footer__politic-date">
+                &copy; 2020 Company
+                <span>Политика конфиденциальности</span>
+            </div> 
+        </div>  
+        </div>  
+    </footer>   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <!-- <script src="js/main.min.js"></script>  (ПРЕОБРАЗУЙ И ПОДКЛЮЧИ) -->
+    <script src="js/main.js"></script>
+</body>
+</html>

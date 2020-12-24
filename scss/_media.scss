@@ -1,0 +1,660 @@
+@media(max-width: 1190px) {
+    .detail__desc-idea {
+        width: 100%;
+        // max-width: 260px;
+        padding-left: 60px;
+        padding-bottom: 100px;
+    }
+    .detail__info-idea {
+        width: 100%;
+        // max-width: 260px;
+        padding-left: 60px;
+        padding-bottom: 100px;
+    }
+    .more__info {
+        position: absolute;
+        padding: 0px 0px;
+        left: 400px;
+    }
+        .more__info-about-text { 
+            color: #fff;
+        }
+    .more__info-about-desc {
+        color: #fff;
+    }
+    // .more__info-about-title {
+    //     color: $blue;
+    // }
+    .map {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .ourContacts__info {
+        padding-left: 20px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .header__input {
+        display: none;
+    }
+     .menu__list {
+        display: none;
+        background: #000;
+        position: absolute;
+        top: 242px;
+        left: 0;
+        z-index: 1;
+        right: 0; 
+        padding-bottom: 30px; 
+        text-align: center; 
+        li {
+            display: block;
+            & + li {
+                margin-left: 0;
+            }
+        }
+        a {
+            display: block;
+            padding: 7px 0;
+            // border-bottom: 1px solid #fff;
+        }
+        .header__drop-down .drop-down__link .fa-angle-down{
+            bottom: -27px;
+            right: -49px;
+        }
+    }
+
+    .menu__btn {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+        // padding-top: 25px;
+        div {
+            background-color: #fff;
+            height: 3px;
+            & + div {
+                margin-top: 5px;
+            }
+        }
+    }
+
+    .header__drop-down .drop-down__list {
+        width: 300px;
+        top: 5px;
+        left: -358px;
+
+    }
+    .trend__doors-now-btn {
+        padding-bottom: 50px;
+    }
+    .trend {
+        padding-bottom: 0;
+    }
+    .doors__show-main {
+        padding-bottom: 60px;
+    }
+    .catalog__doors {
+        display: inline;
+    }
+    ul.catalog_list {
+        margin-right: 0px;
+
+    }
+    .header__menu .menu .menu__list li a {
+        margin-left: 0;
+        padding-bottom: 10px;
+    }
+    .doors__show {
+        display: block;
+        text-align: center;
+    }
+    .slider-slick .img1 .block {
+        display: none;
+    }
+    .production__content {
+        display: none;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
+    .footer__info {
+        flex-wrap: wrap;
+    }
+    .footer__info-contact {
+        min-width: 100%;
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 1100px) { 
+    .news__block {
+        justify-content: center;
+    }
+    .order__table-basket {
+        // border-top: 2px solid #bfbcbc;
+        border-right: none;
+        padding-top: 50px;
+    }
+    .payment__img img {
+        display: none;
+    }
+}
+
+@media(max-width: 1060px) {
+    .subscribe {
+        padding: 50px 0;
+    }
+    .subscribe__images img {
+        margin-right: 0;
+    }
+    .combination {
+        margin: 0 0 50px 0px;
+    }
+    .news__four {
+        margin-top: 0px;
+    }
+    .detail__desc-text--about {
+        padding-bottom: 50px;
+    }
+    .detail__info-text--about {
+        padding-bottom: 50px;
+    }
+    .detail__model {
+        flex-wrap: wrap;
+    }
+    .detail__model-text {
+        padding-bottom: 60px;
+    }
+    .detail__design {
+        flex-wrap: wrap;
+    }
+    .detail__design-text {
+        padding-bottom: 60px;
+    }
+    .more__info {
+        left: 300px;
+    }
+    .design-our {
+        max-width: 100%;
+        text-align: center;
+    }
+    .design-proffesional {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .design-proffesional__main {
+        padding-top: 50px;
+        padding-right: 178px;
+    }
+    .design-proffesional__img .fa-angle-down:before {
+        top: 219px;
+    }
+    .order__table-contacts {
+        padding-left: 0;
+    }
+    
+    
+}
+
+@media (max-width: 980px) {
+    .order__table-basket {
+        border-top: 2px solid #bfbcbc;
+    }
+}
+
+@media(max-width: 900px) {
+    .header__top {
+        position: relative;
+    }
+
+    .header__logo {
+        margin-left: 60px;
+    }
+    .header__logo div {
+        font-size: 16px;
+        text-align: center;
+    }
+    .menu__btn {
+        position: absolute;
+        // top: 10px; 
+        top: 50px;
+        div {
+            background-color: #000;    
+        }
+    }
+    .header__menu .menu{
+        height: 0; 
+    }
+    .menu__list {
+        top: 165px;
+        padding-top: 20px;
+    }
+    .recommend__desc-block-img .circle {
+        top: 20%;
+        left: 30%;
+    }
+    .set__block {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .set__complete {
+        padding-top: 50px;
+    }
+    .range__desc {
+        left: 20px;
+    }
+    .order__table-contacts {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 880px) { 
+    .news__info {
+        padding: 20px 0px 40px 0;
+    }
+    .news__four {
+        padding: 20px 50px 40px 0;
+    }
+    .detail__model-img {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .detail__design-img {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content .subscribe__padding {
+        display: none;
+    }
+}
+
+@media(max-width: 800px) {
+    .header__logo img {
+        width: 140px;
+    }
+    .header__top-inner {
+        padding-top: 24px;
+    }
+    .header__contact {
+        width: 200px;
+    }
+    .header__contact-call {
+        display: none;
+    }
+    .header__circle i.fa-shopping-basket {
+        font-size: 26px;
+    }
+    i.fas.fa-phone-volume {
+        font-size: 20px;
+    }
+    .header__contact-tel span {
+        font-size: 20px;
+    }
+    .header__contact-tel {
+        padding-top: 20px;
+    }
+    .header__circle {
+        left: -100px;
+    }
+    .menu__list {
+        top: 120px;
+    }
+    .header__drop-down .drop-down__list {
+        top: 40px;
+        left: -145px;
+    }
+    .main__info-title {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    .project-product .doors-images {
+        margin-right: 40px;
+    }
+    .project-product__doors img {
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .news__four {
+        padding: 20px 0px 40px 0;
+    }
+    .more__info {
+        left: 200px;
+    }
+    
+
+    .footer__info-contact {
+        padding: 0 0 50px 50px;
+
+    }
+    .footer__info-contact-list {
+        padding: 0 45px 50px 50px;
+    }
+    .footer__info-contact-search {
+        margin: 0 50px 0 50px;
+    }
+    .footer__info-contact-social {
+        padding-left: 50px;
+        .title {
+            padding-bottom: 20px;
+        }
+        ul {
+            display: flex;
+            li {
+                padding-right: 40px;
+            }
+        }
+    }
+}  
+
+@media(max-width: 760px) {
+    .advantage {
+        display: none;
+    }
+    .video__doors {
+        padding-top: 50px;
+    }
+    .recommend__desc-block-img .circle {
+        width: 40px;
+        height: 40px;
+        top: 33%;
+        left: 35%;
+    }
+    .recommend__desc-block-img .circle .trigle { 
+        top: 32%;
+        left: 40%;    
+        border-top: 7px solid transparent;
+        border-left: 11px solid #343538;
+        border-bottom: 7px solid transparent;
+    }
+    .slider-slick {
+            img {
+                padding: 0px 20px;
+            }
+    }
+    .questions-block2 {
+        margin: 50px 0px;
+    }
+    
+    .project-product .doors-images .doors-image__1 {
+        margin-bottom: 20px;
+    }
+    .project-product .doors-images .doors-image__2 {
+        margin-bottom: 20px;
+    }
+    .project-product .doors-images .doors-image__3 {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 705px) {
+    .main__info {
+        padding-top: 50px;
+    }
+    .main__img {
+        display: none;
+    }
+    .main__info-btn {
+        padding-bottom: 0;
+    }
+    .main__info-btn button {
+        font-size: 14px;    
+        max-width: 300px;
+    }
+    .trend__doors-now-btn button {
+        margin-right: 10px;
+    }
+    .slider .subscribe {
+        display: block;
+        text-align: center;
+    }
+    .slider .subscribe-title {
+        padding-right: 0;
+    }
+    .subscribe-mail {
+        padding-top: 25px;    
+    }
+    .set__switch-block .tab {
+        margin-right: 45px;
+        line-height: 40px;
+    }
+    .more__sorting-string-price {
+        // padding-left: 150px;
+    }
+    .more__sorting-string-price input {
+        width: 80px;
+    }
+}  
+
+@media(max-width: 635px) {
+    .popup__about-text {
+        padding-left: 0;
+    }
+    .popup__constructor-image {
+        padding-bottom: 50px;   
+    }
+    .detail__desc-idea {
+        padding-left: 0px;
+    }
+    .detail__info-idea {
+        padding-left: 0px;
+    }
+    .payment__order-nameProduct-door--price {
+        padding-left: 0;
+        font-size: 15px;
+    }
+    .payment__order-nameProduct-door--price span{ 
+        font-size: 14px;
+    }
+    
+}
+
+@media(max-width: 605px) {
+    .header__contact {
+        display: none;
+    }
+    .header__circle  {
+        top: -19px;
+        left: -80px;
+    }
+    .header__logo div {
+        font-size: 14px;
+    }
+    .recommend {
+        display: none;
+    }
+    .range__img img {
+        min-height: 450px;
+    }
+    .more__info {
+        left: 100px;
+    }
+    .design-proffesional__img {
+        margin-left: 150px;
+    }
+    .design-proffesional__main {
+        padding-right: 0px;
+    }
+    .payment__outcome {
+        padding-left: 0px;
+
+    }
+    .payment__outcome-sum {
+        padding-left: 0px; 
+        text-align: left;
+    }
+    .payment__outcome-total button {
+        width: 234px;
+    }
+    .footer__info-contact-search {
+        padding-bottom: 50px;
+    }
+    .footer__info-contact-social ul li {
+        padding-right: 10px;
+    }
+}
+
+@media(max-width: 500px) {
+    .project-desc__text h2 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .project-desc__text p.text {
+        font-size: 15px;
+    }
+    .project-desc__about {
+        min-width: 120px;       
+    }
+    .more__sorting-string-price {
+         padding-left: 0px; 
+    }
+    .charact__block {
+        display: none;
+    }
+    .doors__main-block {
+        padding-left: 60px;
+    }
+    .design-proffesional__img {
+        display: none;
+    }
+    .map__about-buttons {
+        padding-left: 10px;
+    }
+    .map__about-buttons button {
+        width: 110px;
+    }
+    .map__about-select .select-place {
+        width: 120px;
+    }
+    .write form .write-data input {
+        width: 170px;
+    }
+    .order__table-contacts input {
+        width: 170px;
+    }
+    .order__table-contacts {
+        padding-left: 0px;
+    }   
+    .order__table-contacts input.data {
+        width: 120px;
+    }
+    .order__table {
+        border: none;
+    }
+    .payment__order-name {
+        font-size: 14px;
+    }
+    .payment__order-nameProduct-door--name {
+        width: 100px;
+        padding-left: 20px;
+    }
+    
+    .footer__info-contact-search {
+        margin: 0;
+    }
+    .footer__info-contact-search input {
+        width: 220px;
+        margin: 0 0 50px 0;
+    }
+    .footer__info-contact-social {
+        padding-left: 0;
+    }
+    .footer__info-contact {
+        padding: 0 0 50px 0;
+
+    }
+    .footer__info-contact-list {
+        padding: 0 0 50px 0;
+    }
+    .footer__politic  {
+        padding-bottom: 30px;
+        line-height: 30px;
+       }
+    .footer__politic span {
+        padding-left: 0;
+    }
+
+}
+
+@media(max-width: 455px) { 
+    .more__info {
+        left: 50px;
+    }
+    .payment__order-nameProduct-door--img .fa-times {
+        left: -44px;
+    }
+    .payment__order-nameProduct-door--name {
+        padding-top: 50px;
+        margin-left: -36px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 400px) { 
+    .doors__show {
+        padding-left: 28px;       
+    }
+    .recommend__desc-title {
+        line-height: 44px;
+    }
+    .combination-about__text {
+        margin-left: 60px;
+    }
+    .slider .subscribe-mail button {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    
+    .set__show-img img {
+        width: 250px;
+        // margin-left: 17%;
+    }
+    .popup {
+        padding: 0px;
+    }
+}
+
+@media(max-width: 400px) { 
+    .more__info {
+        left: 20px;
+    }
+    .more__search input {
+        display: none;
+    }
+    .ourContacts__info-mail {
+        padding-left: 16px;
+    }
+}
+
+@media(max-width: 330px) { 
+    .video__doors-player {
+        display: none;
+    }
+    .more__sorting {
+        font-size: 19px;   
+    }
+   .footer__info-contact-search {
+       padding-bottom: 0;
+   }
+   
+
+}
+
+
+
+
+
+
+
+//MIN
+@media(min-width: 1151px) {
+    .menu {
+        .menu__list{
+                display: block !important;
+        } 
+    }
+    .production__content {
+        display: block !important;
+    }
+ }
